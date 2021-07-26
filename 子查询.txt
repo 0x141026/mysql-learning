@@ -39,7 +39,7 @@ nbbjz11
     goods_price DECIMAL(15,3) UNSIGNED NOT NULL DEFAULT 0,
     is_show     BOOLEAN NOT NULL DEFAULT 1,
     is_saleoff  BOOLEAN NOT NULL DEFAULT 0
-  );
+  )ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
  -- 写入记录
 
